@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 725px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1025px )" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Áudio</h1>
+    <p>vamos aprender a reproduzir audio em HTML5</p>
+    <p>
+        <audio id="audio01" src="midias/Harvest Moon Back to Nature Winter Theme Song.mp3" controls ></audio>
+
+        <a href="midias/Harvest Moon Back to Nature Winter Theme Song.mp3" download="HarvestMoon winter theme">baixar</a>
+    </p>
+
+    <h1>Vídeos</h1>
+    <h2>Vídeos hospedados localmente:</h2>
+<p>
+    <video src="midias/Monkey dance-Funny Video.mp4" width="500" poster="imagens/mamaco.jpg" controls loop></video>
+</p>
+
+<p>
+    <video src="midias/samurai-anime-girl-autumn-forest.mp4" width="700" autoplay loop></video>
+</p>
+<h2>Vídeos externos incorporados</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=A8VWO6rfTXquWwd1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

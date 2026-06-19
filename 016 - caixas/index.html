@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+
+    <style>
+        body{
+            background-color: #966343;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: #0B964C;
+            padding: 10px;
+            text-align: center;
+            margin: 10px 10px 0px 10px;
+            color: white;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.397);
+
+        }
+        header > h1{
+            font-weight: 900;
+           
+        }
+
+        nav{
+            margin: 0px 50px;
+            background-color: #49963E;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.151);
+            
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+            
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            
+        }
+
+        main{
+            margin: 0px 10px;
+            background-color: white;
+            padding: 20px;
+            border-width: 20px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.397);
+        }
+
+        footer{
+            background-color: #1A412D;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        
+        }
+
+        footer > p > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+         footer > p > a:hover{
+            text-decoration: underline;
+         }
+    </style>
+
+</head>
+<body>
+    <Header>
+        <h1>MACREBIZANDO</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Lives</a>
+            <a href="#">Vídeos</a>
+            <a href="#">Redes Sociais</a>
+        </nav>
+    </Header>
+    <main>
+        <section id="videos">
+            <p>videos legais</p>
+
+        </section>
+        <section id="lives">
+            <article>
+                <h1>Lives</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero fugiat cum et assumenda quia aut consequatur quibusdam facilis non. Qui nostrum minima aliquid molestiae odio cumque, doloremque quis repellat deleniti?</p>
+                <aside>I hate Niggers</aside>
+            </article>
+        </section>
+        <article>
+            <h2>Redes sociais</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est similique explicabo sint! Explicabo at ullam minus, libero labore maiores soluta consequuntur delectus odio, similique aliquid voluptatem? Non placeat eveniet id!</p>
+        </article>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Renbri Games &reg;</p>
+        <p><a href="https://instagram.com/macrebizandolive" target="_blank">Instagram</a> <a href="#">Tiktok</a></p>
+    </footer>
+</body>
+</html>

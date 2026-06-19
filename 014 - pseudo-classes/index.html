@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes</title>
+
+    <style>
+        div{
+            display: inline-flex;
+            background-color: lightgray;
+            border: 1px outset black;
+            height: 200px;
+            width: 200px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div > p{
+            text-align: center;
+        }
+
+        div:hover{
+            background-color: yellow;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="d1"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos recusandae aliquam modi magnam repellat itaque quibusdam expedita nulla quidem id! Alias accusantium quia eveniet ullam, eaque vitae ipsam sint! Possimus?</p></div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>
